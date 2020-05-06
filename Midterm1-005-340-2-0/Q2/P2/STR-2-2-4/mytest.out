@@ -1,0 +1,3 @@
+Running test4
+Removing all 'x's from "aaxxbbxxccxxddxxeexx"...
+Result = "aaXXbbXXccXXddXXeeXX".

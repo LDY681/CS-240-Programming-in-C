@@ -1,0 +1,53 @@
+                            REDIRECTING INPUT
+                            _________________
+
+These problems do not use FILE i/o within the program, instead they use input
+redirection to send a file's contents to "stdin" which the program will read
+from.  This can be done by running the program like so:
+		./mytest < sample_input.txt
+
+Input can also be entered manually by running the compled program, then
+entering each desired input value.  When you are done entering values, you will
+need to let the program know you are finished by pressing "ctrl + d".  This
+sets the EOF flag.
+
+
+                             HELPFUL FUNCTIONS
+                             _________________
+
+getchar(), ungetc(...), atoi(...), scanf(...), printf(..), getline(...)
+	Remember that you have access to the 'man' pages.
+
+
+                             PROBLEM DESCRIPTION
+                             ___________________
+
+You will create your own SCR-4-1-2.c file that contains the function
+`void printTriangles()`.  This function reads in a stream of integers from
+stdin. The input will be a list of integers that are separated by a space.
+After the final integer in the file, there will immediately be a newline
+character to signal that all of the integers have been read. For each integer,
+a right triangle of asterisks is printed whose height and base is the number
+read.  Each triangle is  followed by a new line.  An extra  newline is added
+after each triangle except the last, see below.
+
+
+                             EXAMPLES
+                             ________
+
+Input File contains:  "3 2 4\n"
+Function Outputs:     "***\n
+                       **\n
+                       *\n
+                       \n
+                       **\n
+                       *\n
+                       \n
+                       ****\n
+                       ***\n
+                       **\n
+                       *\n
+                       \n"
+
+Input File contains:  nothing or empty file
+Function Outputs:     "No integers were provided.\n"

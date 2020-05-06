@@ -1,0 +1,29 @@
+#!/bin/bash
+
+OLD_PATH=${PATH}
+PATH=".:${PATH}"
+LAB="Exam3"
+finalGrade="0"
+finalTotal="0"
+
+echo "======Running Global Testall======"
+rm -f totalGrade.txt
+for d in */ ; do
+    cd $d
+    echo -n ${d%?}: >> ../totalGrade.txt
+    ./testall > /dev/null
+    grade="$(sed '2!d' total.out)"
+    total="$(sed '3!d' total.out)"
+    finalGrade=$((grade + finalGrade)) 
+    finalTotal=$((total + finalTotal))
+    echo -n " $grade/$total" >> ../totalGrade.txt
+    echo >> ../totalGrade.txt
+    make clean > /dev/null
+    cd ..
+done
+echo >> totalGrade.txt
+echo   "CS240: $LAB. $USER" `date`  >> totalGrade.txt 
+echo "Total Grade: $finalGrade/$finalTotal" >> totalGrade.txt
+cat totalGrade.txt
+
+PATH=${OLD_PATH}

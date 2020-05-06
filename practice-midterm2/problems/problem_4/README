@@ -1,0 +1,10 @@
+Step ( 1/1 ):
+
+Complete the two functions found in problem_convert.c
+
+In the function toInteger(char * number, int base) convert the number
+given in string format to a decimal number (base 10). Return the converted
+number.
+
+The function toBase(int number, int base) converts a decimal number to a 
+different base. Return the number as a char pointer. 

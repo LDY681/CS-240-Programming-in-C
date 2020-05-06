@@ -1,0 +1,11 @@
+#!/bin/bash
+
+(make clean; make) || exit 1
+
+source ../../tester/testall
+
+runtest mytest "test1" none 1 7
+runtest mytest "test2" none 1 7
+runtest mytest "test3" none 1 6
+
+printResults

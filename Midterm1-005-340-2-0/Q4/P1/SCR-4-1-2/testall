@@ -1,0 +1,12 @@
+#!/bin/bash
+
+make clean ; make
+
+source ../../../tester/testall
+
+runtest mytest "test1" none 1 6
+runtest mytest "test2" none 1 6
+runtest mytest "test3" input.txt 1 6
+runtest mytest "test4" none 1 6
+
+printResults

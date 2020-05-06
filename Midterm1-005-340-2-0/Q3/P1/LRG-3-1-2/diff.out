@@ -1,0 +1,4 @@
+3c3
+< Result = "This XXXXXXs out the word censor".
+---
+> Result = "This censors out the word XXXXXX".

@@ -1,0 +1,3 @@
+Running test4
+Censoring "censor" from "This censors out the word censor"...
+Result = "This censors out the word XXXXXX".

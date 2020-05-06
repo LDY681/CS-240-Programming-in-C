@@ -1,0 +1,4 @@
+mytest test1                        : 6   of 6  
+mytest test2                        : 6   of 6  
+mytest test3                        : 0   of 6  
+mytest test4                        : 0   of 6  

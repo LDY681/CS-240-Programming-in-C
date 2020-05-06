@@ -1,0 +1,6 @@
+Step (1/1):
+
+Implement the single linked list functions found in 
+problem_single_linked_list.c 
+
+Helpful hint: look inside LinkedList.h to see how the list is implemented.

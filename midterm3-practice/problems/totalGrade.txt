@@ -1,0 +1,7 @@
+problem_1: 25/25
+problem_2: 25/25
+problem_3: 25/25
+problem_4: 25/25
+
+CS240: Exam3. liu1589 Thu Nov 30 09:02:22 EST 2017
+Total Grade: 100/100

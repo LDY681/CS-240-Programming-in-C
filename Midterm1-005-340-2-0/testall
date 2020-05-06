@@ -1,0 +1,71 @@
+#!/bin/bash
+
+#OLD_PATH=${PATH}
+#PATH=".:${PATH}"
+LAB="Exam1"
+finalGrade="0"
+finalTotal="100"
+testMode=""
+
+
+
+echo "======Running Global Testall======"
+
+echo " " > totalGrade.txt
+problem=1
+for i in 1-1 1-2 1-3 2-1 2-2 2-3 3-1 4-1
+do
+	#echo $i
+	#echo ls */*/*-$i-*
+	echo -n "$i : " >> totalGrade.txt 
+	cd */*/*-$i-*
+	#ls
+
+	testall 2&> /dev/null
+	if [ -e "total.out" ]
+	then
+	    
+	#grade=$((`sed -n 'x;$p' total.out | cut -d' ' -f16`))
+	#total=$((`sed -n 'x;$p' total.out | cut -d' ' -f18`))
+	    total=`grep "Total:" total.out | awk '{print $(NF)}'`
+	    grade=`grep "Total:" total.out | awk '{print $(NF-2)}'`
+	    #echo -n " $grade/$total" >> ../../../totalGrade.txt
+	else
+	    grade=0
+	    total=0
+	    weightedG=0
+	fi
+	echo -n " $grade/$total" >> ../../../totalGrade.txt
+	if [ $problem == 1  -o $problem == 2 -o $problem == 4 -o $problem == 5 ]
+	then
+	    weightedG=`echo $((($grade/$total)))*10 | bc`
+	    echo -n " weighted $weightedG / 10" >> ../../../totalGrade.txt
+	    #echo -n `echo $((($grade/$total)))*.10 | bc` >> ../../../totalGrade.txt
+	elif [  $problem == 3 -o  $problem == 6 -o  $problem == 7 -o  $problem == 8 ]
+	then
+	    weightedG=`echo $((($grade/$total)))*15 | bc`
+	    echo -n " weighted $weightedG / 15" >> ../../../totalGrade.txt
+	else
+	    weightedG=0
+	    
+	       
+	fi
+	
+	
+	finalGrade=$((weightedG + finalGrade))
+	#echo -n " $grade/$total" >> ../../../totalGrade.txt
+	problem=`expr $problem + 1`
+	cd ../../../
+	echo >> totalGrade.txt
+	
+
+	#ls
+done
+
+#cd ..
+echo >> totalGrade.txt
+echo   "CS240: $LAB. $USER" `date`  >> totalGrade.txt
+echo "Total Grade: $finalGrade/$finalTotal" >> totalGrade.txt
+cat totalGrade.txt
+
+#PATH=${OLD_PATH}

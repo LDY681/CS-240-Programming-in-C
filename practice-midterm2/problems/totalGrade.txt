@@ -1,0 +1,7 @@
+problem_1: 27/30
+problem_2: 30/30
+problem_3: 20/20
+problem_4: /
+
+CS240: Exam2. liu1589 Wed Oct 25 00:59:27 EDT 2017
+Total Grade: 77/80
