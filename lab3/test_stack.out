@@ -1,0 +1,16 @@
+Pushing values...
+Stack:
+0: 5.000000
+1: 9.000000
+2: 2.000000
+3: 3.000000
+Pop values...
+x=3.000000 y=2.000000
+Stack:
+0: 5.000000
+1: 9.000000
+top=2 max=100
+isempty=0Pop values...
+Stack:
+Stack is emptytop=0 max=100
+isempty=1

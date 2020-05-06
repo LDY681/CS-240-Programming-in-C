@@ -1,0 +1,8 @@
+test_word_table test1               : 4   of 4  
+test_word_table test2               : 4   of 4  
+test_word_table test3               : 4   of 4  
+test_word_table test4               : 4   of 4  
+test_word_table test5               : 3   of 3  
+test_word_table test6               : 3   of 3  
+test_word_table test7               : 3   of 3  
+test_word_table test8               : 3   of 3  

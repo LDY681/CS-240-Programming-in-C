@@ -1,0 +1,55 @@
+Running test12
+{EMPTY}
+Adding 0
+Adding 1
+Adding 2
+Adding 3
+Adding 4
+Adding 5
+Adding 6
+Adding 7
+Adding 8
+Adding 9
+Adding 10
+Adding 11
+Adding 12
+Adding 13
+Adding 14
+Adding 15
+Adding 16
+Adding 17
+Adding 18
+Adding 19
+Adding 20
+Adding 21
+Adding 22
+Adding 23
+Adding 24
+Adding 25
+Adding 26
+Adding 27
+Adding 28
+Adding 29
+{29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
+Adding first 40
+Adding first 41
+Adding first 42
+Adding first 43
+Adding first 44
+Adding first 45
+Adding first 46
+Adding first 47
+Adding first 48
+Adding first 49
+{49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
+Adding 50
+Adding 51
+Adding 52
+Adding 53
+Adding 54
+Adding 55
+Adding 56
+Adding 57
+Adding 58
+Adding 59
+{49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59}

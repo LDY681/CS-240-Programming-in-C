@@ -1,0 +1,107 @@
+Start Test 10
+Add Users
+ADD-USER superman clarkkent
+response:
+OK
+
+ADD-USER spiderman peterpark
+response:
+OK
+
+ADD-USER mary poppins
+response:
+OK
+
+Create Room
+CREATE-ROOM superman clarkkent java-programming
+response:
+OK
+
+Create Room
+CREATE-ROOM spiderman peterpark c-programming
+response:
+OK
+
+Enter room
+ENTER-ROOM superman clarkkent python-programming
+response:
+ERROR (No room)
+
+ENTER-ROOM aquaman xyz python-programming
+response:
+ERROR (Wrong password)
+
+ENTER-ROOM spiderman peterpark c-programming
+response:
+OK
+
+ENTER-ROOM aquaman xyz c-programming
+response:
+ERROR (Wrong password)
+
+ENTER-ROOM mary poppins c-programming
+response:
+OK
+
+Print users in room
+GET-USERS-IN-ROOM unknown clarkkent java-programming
+response:
+ERROR (Wrong password)
+
+GET-USERS-IN-ROOM mary poppins java-programming
+response:
+
+
+Enter another user
+ENTER-ROOM spiderman peterpark c-programming
+response:
+OK
+
+Print users in room
+GET-USERS-IN-ROOM unknown peterpark c-programming
+response:
+ERROR (Wrong password)
+
+Send message
+SEND-MESSAGE superman clarkkent c-programming Hi everybody!
+response:
+ERROR (user not in room)
+
+SEND-MESSAGE unknown poppins c-programming Welcome to the talk program!
+response:
+ERROR (Wrong password)
+
+Send message
+SEND-MESSAGE superman clarkkent java-programming Welcome to java-programming!
+response:
+ERROR (user not in room)
+
+SEND-MESSAGE aquaman xyz java-programming Java is based on C++!
+response:
+ERROR (Wrong password)
+
+Get messages
+GET-MESSAGES mary poppins 0 java-programming
+response:
+ERROR (User not in room)
+
+Get messages
+GET-MESSAGES superman clarkkent 0 c-programming
+response:
+ERROR (User not in room)
+
+Get messages from 0
+GET-MESSAGES mary poppins 10000 c-programming
+response:
+NO-NEW-MESSAGES
+
+LEAVE-ROOM mary poppins c-programming
+response:
+OK
+
+Get messages from 2
+GET-MESSAGES superman clarkkent 4 java-programming
+response:
+ERROR (User not in room)
+
+Killing Server

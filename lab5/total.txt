@@ -1,0 +1,23 @@
+testmemdump 1                       : 4   of 4  
+testmemdump 2                       : 4   of 4  
+testmemdump 3                       : 4   of 4  
+testmemdump 4                       : 3   of 3  
+testmemdump 5                       : 3   of 3  
+myfiledump myfiledump.c             : 4   of 4  
+myfiledump myfiledump 100           : 4   of 4  
+myfiledump sample.wav 100           : 4   of 4  
+myfiledump invalidfile              : 3   of 3  
+myfiledump myfiledump.c 1000000     : 3   of 3  
+test_mystring test1                 : 3   of 3  
+test_mystring test2                 : 3   of 3  
+test_mystring test3                 : 3   of 3  
+test_mystring test4                 : 3   of 3  
+test_mystring test5                 : 3   of 3  
+test_mystring test6                 : 3   of 3  
+test_mystring test7                 : 3   of 3  
+test_array test1                    : 3   of 3  
+test_array test2                    : 3   of 3  
+test_array test3                    : 3   of 3  
+test_array test4                    : 3   of 3  
+test_array test5                    : 3   of 3  
+test_array test6                    : 3   of 3  

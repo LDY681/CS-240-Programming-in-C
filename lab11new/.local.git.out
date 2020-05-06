@@ -1,0 +1,459 @@
+[master (root-commit) 77a231a] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 880 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 Makefile
+ create mode 100755 TestIRCServer
+ create mode 100644 TestIRCServer.c
+ create mode 100755 entry
+ create mode 100644 entry.c
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 panned
+ create mode 100644 panned.c
+ create mode 100755 radio
+ create mode 100644 radio.c
+ create mode 100644 talk-client.c
+ create mode 100755 timer
+ create mode 100644 timer.c
+[master 9aa14c0] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 29 insertions(+)
+[master cb98c5e] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+)
+[master 4267a97] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 167 insertions(+), 2 deletions(-)
+ create mode 100755 IRCClient
+ create mode 100644 IRCClient.cc
+[master 6afcf58] Make IRCclient
+ Committer: CS24000 Account <cs240@lore.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master c521ccd] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master c99f0a0] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 189 insertions(+), 2 deletions(-)
+ create mode 100755 IRCClientTimer
+ create mode 100644 IRCClientTimer.cc
+[master 1779c1d] Make IRCclient
+ 2 files changed, 126 insertions(+), 1 deletion(-)
+ create mode 100644 .local.git.out
+[master 972991a] Make IRCclient
+ 1 file changed, 3 insertions(+)
+[master bc4ed15] Make IRCclient
+ 10 files changed, 395 insertions(+), 102 deletions(-)
+ create mode 100755 IRCCLient
+ create mode 100644 dialog.o
+ create mode 100644 main.o
+ create mode 100644 moc_dialog.cpp
+ create mode 100644 moc_dialog.o
+ create mode 100644 moc_predefs.h
+[master b0ecc98] Make IRCclient
+ 6 files changed, 9 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (77%)
+[master 3f88235] Make IRCclient
+ 7 files changed, 3 insertions(+), 369 deletions(-)
+ delete mode 100755 IRCCLient
+ delete mode 100644 dialog.o
+ delete mode 100644 main.o
+ delete mode 100644 moc_dialog.cpp
+ delete mode 100644 moc_dialog.o
+ delete mode 100644 moc_predefs.h
+[master bd956f4] Make IRCclient
+ 7 files changed, 377 insertions(+)
+ create mode 100755 IRCCLient
+ create mode 100644 dialog.o
+ create mode 100644 main.o
+ create mode 100644 moc_dialog.cpp
+ create mode 100644 moc_dialog.o
+ create mode 100644 moc_predefs.h
+[master 3040ff9] Make IRCclient
+ 1 file changed, 8 insertions(+)
+[master 0642329] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 5660411] Make IRCclient
+ 4 files changed, 160 insertions(+)
+ rewrite IRCCLient (73%)
+ create mode 100644 dialog.cpp.autosave
+[master 2b4558f] Make IRCclient
+ 3 files changed, 5 insertions(+), 159 deletions(-)
+ delete mode 100644 dialog.cpp.autosave
+[master 60b1b3f] Make IRCclient
+ 3 files changed, 4 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master e746d4d] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 dialog.o
+[master 8aa694a] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master ca080d1] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 33f70f0] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master e24bb29] Make IRCclient
+ 2 files changed, 2 insertions(+)
+ delete mode 100644 dialog.o
+[master 06e83ec] Make IRCclient
+ 2 files changed, 12 insertions(+)
+[master a287929] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 0561d13] Make IRCclient
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master a7c101b] Make IRCclient
+ 3 files changed, 2 insertions(+)
+ create mode 100644 dialog.o
+[master 9880d46] Make IRCclient
+ 2 files changed, 4 insertions(+)
+[master 2e20c3e] Make IRCclient
+ 5 files changed, 59 insertions(+), 9 deletions(-)
+ delete mode 100755 IRCCLient
+ rewrite moc_dialog.o (73%)
+[master 11b5801] Make IRCclient
+ 3 files changed, 15 insertions(+), 9 deletions(-)
+[master 5dac79b] Make IRCclient
+ 5 files changed, 3 insertions(+)
+ create mode 100755 IRCCLient
+ rewrite dialog.o (65%)
+[master 49aecc2] Make IRCclient
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+[master 04fca8a] Make IRCclient
+ 5 files changed, 9 insertions(+), 10 deletions(-)
+[master c94d29c] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 32f9da0] Make IRCclient
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master ba1add5] Make IRCclient
+ 6 files changed, 16 insertions(+), 38 deletions(-)
+ rewrite IRCCLient (80%)
+ create mode 100644 dialog.o
+ rewrite moc_dialog.o (66%)
+[master fdec61d] Make IRCclient
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 2b0a9c1] Make IRCclient
+ 3 files changed, 3 insertions(+)
+ create mode 100644 dialog.o
+[master 9df03c6] Make IRCclient
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master cf9d127] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (76%)
+[master c232184] Make IRCclient
+ 5 files changed, 11 insertions(+), 5 deletions(-)
+ rewrite IRCCLient (77%)
+[master 668f7cf] Make IRCclient
+ 4 files changed, 4 insertions(+)
+ delete mode 100644 main.o
+[master 5415a51] Make IRCclient
+ 6 files changed, 8 insertions(+)
+ create mode 100644 main.o
+[master 20d3a5e] Make IRCclient
+ 4 files changed, 10 insertions(+), 2 deletions(-)
+[master ec811c2] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 68d8cd6] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (76%)
+ create mode 100644 dialog.o
+[master e091ed5] Make IRCclient
+ 4 files changed, 14 insertions(+), 1 deletion(-)
+[master 76d310a] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master acd3e68] Make IRCclient
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 4ad3ce3] Make IRCclient
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+[master 28a8315] Make IRCclient
+ 5 files changed, 17 insertions(+), 10 deletions(-)
+ rewrite IRCCLient (80%)
+ create mode 100644 dialog.o
+[master 29c0c0a] Make IRCclient
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 17f814f] Make IRCclient
+ 5 files changed, 5 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (79%)
+ create mode 100644 dialog.o
+[master 9d6f1a3] Make IRCclient
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master f3dfab6] Make IRCclient
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+ create mode 100644 dialog.o
+[master d8c7cbe] Make IRCclient
+ 3 files changed, 5 insertions(+), 2 deletions(-)
+ delete mode 100644 dialog.o
+[master 29495b2] Make IRCclient
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master d2bd9bd] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master 1c4870f] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master cfaabc7] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 dialog.o
+[master 5deb10c] Make IRCclient
+ 4 files changed, 7 insertions(+), 5 deletions(-)
+ rewrite IRCCLient (78%)
+ rewrite dialog.o (60%)
+[master 1e3ad78] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master fd21902] Make IRCclient
+ 5 files changed, 19 insertions(+), 4 deletions(-)
+[master b951b83] Make IRCclient
+ 6 files changed, 10 insertions(+)
+ rewrite IRCCLient (72%)
+[master 51d20ff] Make IRCclient
+ 3 files changed, 3 insertions(+)
+ rewrite IRCCLient (77%)
+[master 636842c] Make IRCclient
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+[master 3ce2317] Make IRCclient
+ 4 files changed, 4 insertions(+)
+ rewrite IRCCLient (79%)
+[master b89d834] Make IRCclient
+ 5 files changed, 12 insertions(+), 16 deletions(-)
+[master 568f0a7] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 00f3abc] Make IRCclient
+ 6 files changed, 22 insertions(+), 15 deletions(-)
+ rewrite IRCCLient (80%)
+ create mode 100644 dialog.o
+ rewrite moc_dialog.o (60%)
+[master edc6358] Make IRCclient
+ 4 files changed, 7 insertions(+), 2 deletions(-)
+[master 9df09ae] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 5241fea] Make IRCclient
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master b677e85] Make IRCclient
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (78%)
+ create mode 100644 dialog.o
+[master ff05909] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (75%)
+ rewrite dialog.o (81%)
+[master 98675b3] Make IRCclient
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+[master 0a77f53] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (76%)
+ rewrite dialog.o (81%)
+[master 40f932a] Make IRCclient
+ 4 files changed, 5 insertions(+), 1 deletion(-)
+[master c3ba457] Make IRCclient
+ 3 files changed, 4 insertions(+), 3 deletions(-)
+ delete mode 100644 dialog.o
+[master 2bcdc12] Make IRCclient
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+[master 303f809] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master e1fef74] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 dialog.o
+[master 217ca73] Make IRCclient
+ 3 files changed, 6 insertions(+), 3 deletions(-)
+ delete mode 100644 dialog.o
+[master dc1b81d] Make IRCclient
+ 4 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 dialog.o
+[master e962079] Make IRCclient
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+ rewrite IRCCLient (80%)
+ rewrite dialog.o (79%)
+[master 7dba99b] Make IRCclient
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master cfce21c] Make IRCclient
+ 4 files changed, 9 insertions(+)
+ create mode 100644 dialog.o
+[master 37f8e90] Make IRCclient
+ 5 files changed, 14 insertions(+)
+[master 0dfd6c4] Make IRCclient
+ 6 files changed, 18 insertions(+), 11 deletions(-)
+ rewrite IRCCLient (74%)
+[master 8f22f79] Make IRCclient
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master d5281b0] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 7e343a2] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 6417ef5] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 5456454] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master d956ac6] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+[master 71cd52e] Make IRCclient
+ 4 files changed, 3 insertions(+)
+[master 5e0c382] Make IRCclient
+ 4 files changed, 7 insertions(+), 5 deletions(-)
+[master 135f883] Make IRCclient
+ 6 files changed, 11 insertions(+), 4 deletions(-)
+[master cc1aa84] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 main.o
+[master 22f0555] Make IRCclient
+ 4 files changed, 3 insertions(+)
+ create mode 100644 main.o
+ rewrite moc_dialog.o (64%)
+[master 847b86e] Make IRCclient
+ 1 file changed, 4 insertions(+)
+[master 86cc531] Make IRCclient
+ 3 files changed, 6 insertions(+)
+[master a0b14b9] Make IRCclient
+ 3 files changed, 4 insertions(+)
+ delete mode 100644 dialog.o
+[master c9187a2] Make IRCclient
+ 6 files changed, 5 insertions(+), 1 deletion(-)
+ delete mode 100755 IRCCLient
+ create mode 100644 dialog.o
+ rewrite moc_dialog.o (62%)
+[master 0d873b6] Make IRCclient
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master a7dd26c] Make IRCclient
+ 8 files changed, 7 insertions(+), 10 deletions(-)
+ create mode 100755 IRCCLient
+ create mode 100644 dialog.o
+[master 6d44f26] Make IRCclient
+ 5 files changed, 4 insertions(+)
+ rewrite IRCCLient (63%)
+ rewrite moc_dialog.o (64%)
+[master a6e8360] Make IRCclient
+ 3 files changed, 11 insertions(+)
+[master 267faad] Make IRCclient
+ 5 files changed, 3 insertions(+), 1 deletion(-)
+ rewrite IRCCLient (79%)
+[master d1d72e1] Make IRCclient
+ 4 files changed, 4 insertions(+), 1 deletion(-)
+[master bf0d416] Make IRCclient
+ 5 files changed, 2 insertions(+), 86 deletions(-)
+[master 51d6d82] Make IRCclient
+ 4 files changed, 2 insertions(+)
+[master 1950bd0] Make IRCclient
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+[master f2728d7] Make IRCclient
+ 11 files changed, 1304 insertions(+)
+ create mode 100644 #main.cpp#
+ create mode 100644 .local.git.out
+ create mode 100644 .qmake.stash
+ create mode 100755 IRCCLient
+ create mode 100755 basiclayouts
+ create mode 100644 basiclayouts.pro.user.2ba08eb
+ create mode 100644 dialog.o
+ create mode 100644 main.o
+ create mode 100644 moc_dialog.cpp
+ create mode 100644 moc_dialog.o
+ create mode 100644 moc_predefs.h
+[master c767d13] Make IRCclient
+ 2 files changed, 13 insertions(+)
+ rewrite IRCCLient (80%)
+[master 05add1e] Make IRCclient
+ 2 files changed, 12 insertions(+), 129 deletions(-)
+[master f5048ef] Make IRCclient
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .talk-client.c.swp
+[master 0594938] Make IRCclient
+ 3 files changed, 3 insertions(+)
+ delete mode 100644 .talk-client.c.swp
+ create mode 100755 IRCServer
+[master 5a22bc3] Make IRCclient
+ 4 files changed, 98 insertions(+), 2 deletions(-)
+ create mode 100644 .dialog.cpp.swp
+[master 7db060d] Make IRCclient
+ 3 files changed, 15 insertions(+), 1 deletion(-)
+[master 6f5f112] Make IRCclient
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 dialog.o
+[master 8a519e8] Make IRCclient
+ 5 files changed, 197 insertions(+)
+ delete mode 100644 .dialog.cpp.swp
+ create mode 100644 dialog.o

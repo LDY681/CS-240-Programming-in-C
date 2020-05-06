@@ -1,0 +1,13 @@
+
+1. To create new tests type
+
+../../../bin/expect/expect5.45/example/autoexpect -f testNUM ../high-low 
+
+testNUm is te name of the test
+
+2. Then modify the top of the test and replace
+
+expect -> myexpect
+-exact ->  (nothing)
+
+

@@ -1,0 +1,121 @@
+[master (root-commit) 77a231a] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 880 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 Makefile
+ create mode 100755 TestIRCServer
+ create mode 100644 TestIRCServer.c
+ create mode 100755 entry
+ create mode 100644 entry.c
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 panned
+ create mode 100644 panned.c
+ create mode 100755 radio
+ create mode 100644 radio.c
+ create mode 100644 talk-client.c
+ create mode 100755 timer
+ create mode 100644 timer.c
+[master 9aa14c0] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 29 insertions(+)
+[master cb98c5e] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+)
+[master 4267a97] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 167 insertions(+), 2 deletions(-)
+ create mode 100755 IRCClient
+ create mode 100644 IRCClient.cc
+[master 6afcf58] Make IRCclient
+ Committer: CS24000 Account <cs240@lore.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master c521ccd] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master c99f0a0] Make IRCclient
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 189 insertions(+), 2 deletions(-)
+ create mode 100755 IRCClientTimer
+ create mode 100644 IRCClientTimer.cc
+[master 1779c1d] Make IRCclient
+ 2 files changed, 126 insertions(+), 1 deletion(-)
+ create mode 100644 .local.git.out

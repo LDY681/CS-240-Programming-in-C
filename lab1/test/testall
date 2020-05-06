@@ -1,0 +1,47 @@
+#!/bin/sh
+
+grade0=0
+grade0max=20
+./test0 && grade0=`expr $grade0 "+" 20`
+
+grade1=0
+grade1max=20
+./test1 && grade1=`expr $grade1 "+" 20`
+
+grade2=0
+grade2max=20
+./test2 && grade2=`expr $grade2 "+" 20`
+
+grade3=0
+grade3max=20
+./test3 && grade3=`expr $grade3 "+" 20`
+
+grade4=0
+grade4max=20
+./test4 && grade4=`expr $grade4 "+" 20`
+
+total=`expr $grade0 + $grade1 + $grade2 + $grade3 + $grade4`
+
+totalmax=`expr $grade0max + $grade1max + $grade2max + $grade3max + $grade4max`
+
+echo   "-------------------------------------------------" > total.out
+echo   "User:  $1 " >> total.out
+echo   "-------------------------------------------------"
+printf "Test0:          	 %-3d%s%-3d\n" $grade0 " of " $grade0max >> total.out
+printf "Test1:          	 %-3d%s%-3d\n" $grade1 " of " $grade1max >> total.out
+printf "Test2:                   %-3d%s%-3d\n" $grade2 " of " $grade2max >> total.out
+printf "Test3:                   %-3d%s%-3d\n" $grade3 " of " $grade3max >> total.out
+printf "Test4:                   %-3d%s%-3d\n" $grade4 " of " $grade4max >> total.out
+echo   "--------------------------------------------------" >> total.out
+printf "Total:                   %-3d%s%-3d\n" $total " of " $totalmax >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+
+#Do not remove or comment these lines. They are used for monitoring progress.
+labout=/homes/cs240/LABOUT/lab1/$USER/total.txt
+cat total.out >> $labout
+git add -A >> .local.git.out
+git commit -a -m "$total of $totalmax" >> .local.git.out
+
+

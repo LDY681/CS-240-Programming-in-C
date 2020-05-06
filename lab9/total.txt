@@ -1,0 +1,17 @@
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 

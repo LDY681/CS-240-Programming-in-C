@@ -1,0 +1,17 @@
+
+To run a test first make sure that you have compiled your program:
+
+cd 
+cd cs240/lab1-src
+gcc -o high-low high-low.c
+
+The you may run each individual test
+
+./test1
+./test2
+
+or run all of them:
+
+./testall
+
+

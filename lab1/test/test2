@@ -1,0 +1,89 @@
+#!/usr/bin/expect -f
+
+puts "=========== Running Test 2 ============"
+
+source testing.tcl
+
+set timeout 2
+spawn ../high-low
+match_max 100000
+
+myexpect  "Welcome to the High Low game...\r
+Think of a number between 1 and 100 and press <enter>"
+send -- "\r"
+myexpect  "\r
+Is it higher than 50? (y/n)\r
+"
+send -- "n\r"
+myexpect  "n\r
+Is it higher than 25? (y/n)\r
+"
+send -- "n\r"
+myexpect  "n\r
+Is it higher than 12? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 18? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 21? (y/n)\r
+"
+send -- "n\r"
+myexpect  "n\r
+Is it higher than 19? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 20? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+\r
+>>>>>> The number is 21\r
+\r
+Do you want to continue playing (y/n)?"
+send -- "y\r"
+myexpect  "y\r
+Think of a number between 1 and 100 and press <enter>"
+send -- "\r"
+myexpect  "\r
+Is it higher than 50? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 75? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 88? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 94? (y/n)\r
+"
+send -- "n\r"
+myexpect  "n\r
+Is it higher than 91? (y/n)\r
+"
+send -- "n\r"
+myexpect  "n\r
+Is it higher than 89? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+Is it higher than 90? (y/n)\r
+"
+send -- "y\r"
+myexpect  "y\r
+\r
+>>>>>> The number is 91\r
+\r
+Do you want to continue playing (y/n)?"
+send -- "n\r"
+myexpect eof
+
+puts ">>>>>> Test2 passed"
+exit 0
+

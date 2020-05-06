@@ -1,0 +1,8 @@
+4c4
+< maxContinuousOnes(a, &pos)=1877237650 pos=4198141
+---
+> maxContinuousOnes(a, &pos)=7 pos=21
+8c8
+< maxContinuousOnes(b, &pos)=2137522057 pos=4198141
+---
+> maxContinuousOnes(b, &pos)=12 pos=7

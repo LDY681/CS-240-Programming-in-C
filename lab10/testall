@@ -1,0 +1,100 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]
+then
+  echo "Usage: `basename $0` port"
+  exit 1
+fi
+
+
+PORT=$1
+
+export LAB=lab10
+
+(make clean; make) || exit 1
+
+echo Killing any server running
+PIDS=`/bin/ps -u $USER | grep talk-ser | awk '{print $1;}'`
+kill -9 $PIDS >& /dev/null
+
+sleep 2
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+
+# Test driver
+function runtest {
+  prog=$1
+  progorg=$2
+  args=$3
+  testinput=$4
+  grade=$5
+  totalmax=`expr $totalmax + $grade`;
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  echo "======= $descr ==========="
+
+  #Run tested program
+  rm -f prog.out prog.org.out
+  echo "$prog $args < $testinput > prog.out"
+  echo "$progorg $args < $testinput > prog.org.out"
+  $prog $args < $testinput > prog.out
+  $progorg $args < $testinput > prog.org.out
+  if [ $? -eq 0 ]; then
+  	diff prog.out prog.org.out > diff.out
+  	if [ $? -eq 0 ]; then
+      		cat prog.out
+      		echo Test passed...;
+      		printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      		total=`expr $total + $grade`;
+  	else
+      		echo "*****Test Failed*****";
+      		echo ------ Your Output ----------
+      		cat prog.out
+      		echo ------ Expected Output ------
+      		cat prog.org.out
+      		echo ------ Difference -----------
+      		cat diff.out
+      		echo -----------------------------
+      		printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  	fi
+  else
+	echo "*****Test Failed*****";
+	echo $progorg failed
+	printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+
+  fi
+  echo
+}
+
+# List of tests running
+runtest "./test-server1.sh ./IRCServer $PORT" "./test-server1.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server2.sh ./IRCServer $PORT" "./test-server2.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server3.sh ./IRCServer $PORT" "./test-server3.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server4.sh ./IRCServer $PORT" "./test-server4.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server5.sh ./IRCServer $PORT" "./test-server5.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server6.sh ./IRCServer $PORT" "./test-server6.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server7.sh ./IRCServer $PORT" "./test-server7.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server8.sh ./IRCServer $PORT" "./test-server8.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server9.sh ./IRCServer $PORT" "./test-server9.sh ./IRCServer.org $PORT" "" none 5
+runtest "./test-server10.sh ./IRCServer $PORT" "./test-server10.sh ./IRCServer.org $PORT" "" none 5
+
+echo
+echo
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER   "
+echo   "-------------------------------------------------"
+cat total.txt
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER" `date` " Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+

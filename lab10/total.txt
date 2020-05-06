@@ -1,0 +1,10 @@
+./test-server1.sh ./IRCServer 19672   : 5   of 5  
+./test-server2.sh ./IRCServer 19672   : 5   of 5  
+./test-server3.sh ./IRCServer 19672   : 5   of 5  
+./test-server4.sh ./IRCServer 19672   : 5   of 5  
+./test-server5.sh ./IRCServer 19672   : 5   of 5  
+./test-server6.sh ./IRCServer 19672   : 5   of 5  
+./test-server7.sh ./IRCServer 19672   : 5   of 5  
+./test-server8.sh ./IRCServer 19672   : 5   of 5  
+./test-server9.sh ./IRCServer 19672   : 5   of 5  
+./test-server10.sh ./IRCServer 19672   : 5   of 5  

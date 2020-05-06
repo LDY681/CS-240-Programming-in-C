@@ -1,0 +1,1316 @@
+
+
+-------------------------------------------------
+CS240: lab7. cs240   
+Sun Mar 26 14:55:47 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 10 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+-------------------------------------------------
+CS240: lab7. cs240 Sun Mar 26 14:55:47 EDT 2017  Total:  3 of 40
+
+
+
+-------------------------------------------------
+CS240: lab7. cs240   
+Sun Mar 26 15:54:54 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 10 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+-------------------------------------------------
+CS240: lab7. cs240 Sun Mar 26 15:54:54 EDT 2017  Total:  3 of 40
+
+
+
+-------------------------------------------------
+CS240: lab9. cs240   
+Sun Mar 26 15:57:43 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. cs240 Sun Mar 26 15:57:43 EDT 2017  Total:  3 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. cs240   
+Sun Mar 26 16:06:56 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. cs240 Sun Mar 26 16:06:56 EDT 2017  Total:  3 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. cs240   
+Sun Mar 26 16:07:06 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. cs240 Sun Mar 26 16:07:06 EDT 2017  Total:  3 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. cs240   
+Sun Mar 26 16:07:46 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. cs240 Sun Mar 26 16:07:46 EDT 2017  Total:  3 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Thu Nov  2 11:51:45 EDT 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 0   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Thu Nov 2 11:51:45 EDT 2017  Total:  0 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:01:11 EST 2017
+-------------------------------------------------
+TestStack test1                     : 0   of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 0   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:01:11 EST 2017  Total:  0 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:08:50 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:08:50 EST 2017  Total:  23 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:15:41 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 0   of 2  
+TestMyString test2                  : 0   of 2  
+TestMyString test3                  : 0   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:15:41 EST 2017  Total:  23 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:20:05 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 0   of 3  
+TestMyString test6                  : 0   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:20:05 EST 2017  Total:  29 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:41:22 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 0   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:41:22 EST 2017  Total:  35 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 16:55:59 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 16:55:59 EST 2017  Total:  38 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:14:13 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 0   of 3  
+TestMyString test9                  : 0   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:14:13 EST 2017  Total:  38 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:17:41 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 0   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:17:41 EST 2017  Total:  44 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:21:51 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 0   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:21:51 EST 2017  Total:  47 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:23:57 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:23:57 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:30:37 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:30:37 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:46:38 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:46:38 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:47:29 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:47:29 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:51:31 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:51:31 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 17:52:21 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 17:52:21 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:21:36 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:21:36 EST 2017  Total:  60 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:23:06 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:23:06 EST 2017  Total:  60 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:27:03 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:27:03 EST 2017  Total:  60 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:30:47 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:30:47 EST 2017  Total:  70 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:50:04 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:50:04 EST 2017  Total:  70 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:53:40 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:53:40 EST 2017  Total:  70 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:56:47 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:56:47 EST 2017  Total:  70 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 18:59:18 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 18:59:18 EST 2017  Total:  70 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:02:49 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:02:49 EST 2017  Total:  80 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:50:24 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:50:24 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:55:01 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:55:01 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:58:15 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:58:15 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:58:33 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:58:33 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 19:59:20 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 19:59:20 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:07:47 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:07:47 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:08:53 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:08:53 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:13:34 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:13:34 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:25:10 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:25:10 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:25:32 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:25:32 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:40:49 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 0   of 10 
+TestDLList test2                    : 0   of 10 
+TestDLList test3                    : 0   of 10 
+TestDLList test4                    : 0   of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:40:49 EST 2017  Total:  50 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:43:50 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:43:50 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:43:58 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 0   of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:43:58 EST 2017  Total:  90 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:50:10 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:50:10 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:50:27 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:50:27 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:50:47 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:50:47 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Wed Nov  8 20:52:28 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Wed Nov 8 20:52:28 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Thu Nov  9 12:04:25 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Thu Nov 9 12:04:25 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Thu Nov  9 12:10:21 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Thu Nov 9 12:10:21 EST 2017  Total:  100 of 100
+
+
+
+-------------------------------------------------
+CS240: lab9. liu1589   
+Thu Nov  9 12:13:51 EST 2017
+-------------------------------------------------
+TestStack test1                     : 20  of 20 
+TestMyString test1                  : 2   of 2  
+TestMyString test2                  : 2   of 2  
+TestMyString test3                  : 2   of 2  
+TestMyString test4                  : 3   of 3  
+TestMyString test5                  : 3   of 3  
+TestMyString test6                  : 3   of 3  
+TestMyString test7                  : 3   of 3  
+TestMyString test8                  : 3   of 3  
+TestMyString test9                  : 3   of 3  
+TestMyString test10                 : 3   of 3  
+TestMyString test11                 : 3   of 3  
+TestDLList test1                    : 10  of 10 
+TestDLList test2                    : 10  of 10 
+TestDLList test3                    : 10  of 10 
+TestDLList test4                    : 10  of 10 
+TestDLList test5                    : 10  of 10 
+-------------------------------------------------
+CS240: lab9. liu1589 Thu Nov 9 12:13:51 EST 2017  Total:  100 of 100
+

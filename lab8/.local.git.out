@@ -1,0 +1,37 @@
+[master c138102] 0 of 21
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 3 insertions(+), 60 deletions(-)
+ rename problems/mysort-src/mysort.c => mysort.c (100%)
+ rename problems/mysort-src/mysort.h => mysort.h (100%)
+ rename problems/mysort-src/mytest.c => mytest.c (100%)
+ delete mode 100644 problems/dllist-src/DLList.h
+ delete mode 100644 problems/mysort-src/total.out
+ create mode 100644 total.out
+[master 4ae4424] 21 of 21
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ rename mytest.c => test-mysort.c (100%)

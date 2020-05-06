@@ -1,0 +1,141 @@
+[master 2beeb61] 3 of 40
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 40 files changed, 1811 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 .testall.swp
+ create mode 100644 DLList.cpp
+ create mode 100644 DLList.h
+ create mode 100644 Makefile
+ create mode 100644 MyString.cpp
+ create mode 100644 MyString.h
+ create mode 100644 Stack.cc
+ create mode 100644 Stack.h
+ create mode 100644 TestDLList.cpp
+ create mode 100755 TestDLList.org
+ create mode 100755 TestMyString
+ create mode 100644 TestMyString.cpp
+ create mode 100755 TestMyString.org
+ create mode 100644 TestMyString.org.out
+ create mode 100644 TestMyString.out
+ create mode 100644 TestStack.cc
+ create mode 100755 TestStack.org
+ create mode 100644 TestStack.org.out
+ create mode 100644 TestStack.out
+ create mode 100644 diff.out
+ create mode 100644 none
+ create mode 100644 problems/dllist-src/.local.git.out
+ create mode 100644 problems/dllist-src/DLList.cpp
+ create mode 100644 problems/dllist-src/Makefile
+ create mode 100644 problems/dllist-src/diff.out
+ create mode 100755 problems/dllist-src/mytest
+ create mode 100644 problems/dllist-src/mytest.c
+ create mode 100755 problems/dllist-src/mytest.org
+ create mode 100644 problems/dllist-src/mytest.org.out
+ create mode 100644 problems/dllist-src/mytest.out
+ create mode 100644 problems/dllist-src/none
+ create mode 100755 problems/dllist-src/testall
+ create mode 100644 problems/dllist-src/total.txt
+ create mode 100755 testall
+ create mode 100755 tester/testall
+ create mode 100644 total.out
+ create mode 100644 total.txt
+ create mode 100644 totalGrade.txt
+[master 5e0b8ef] 3 of 40
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 86 insertions(+), 5 deletions(-)
+ rename Stack.cc => Stack.cpp (100%)
+ rename TestStack.cc => TestStack.cpp (100%)
+[master d3d3e85] 3 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 176 insertions(+), 9 deletions(-)
+ create mode 100644 TestDLList.org.out
+ create mode 100644 TestDLList.out
+[master 33d77e0] 3 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 190 insertions(+)
+ create mode 100755 TestDLList
+ create mode 100644 TestDLList.org.out
+ create mode 100644 TestDLList.out
+ create mode 100755 TestMyString
+ create mode 100644 TestMyString.org.out
+ create mode 100644 TestMyString.out
+ create mode 100755 TestStack
+ create mode 100644 TestStack.org.out
+ create mode 100644 TestStack.out
+ create mode 100644 diff.out
+ create mode 100644 total.out
+[master 209dc18] 3 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 190 insertions(+)
+ create mode 100755 TestDLList
+ create mode 100644 TestDLList.org.out
+ create mode 100644 TestDLList.out
+ create mode 100755 TestMyString
+ create mode 100644 TestMyString.org.out
+ create mode 100644 TestMyString.out
+ create mode 100755 TestStack
+ create mode 100644 TestStack.org.out
+ create mode 100644 TestStack.out
+ create mode 100644 diff.out
+ create mode 100644 total.out

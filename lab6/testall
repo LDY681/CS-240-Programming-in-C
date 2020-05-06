@@ -1,0 +1,80 @@
+#!/bin/bash
+
+export LAB=lab6
+
+(make clean; make) || exit 1
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+  grade=$4
+  totalmax=`expr $totalmax + $grade`;
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  echo "======= $descr ==========="
+
+  #Run tested program
+  ./$prog $args < $testinput > $prog.out
+  ./$prog.org $args< $testinput > $prog.org.out
+  diff $prog.out $prog.org.out > diff.out
+  if [ $? -eq 0 ]; then
+      cat $prog.out
+      echo Test passed...;
+      printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      total=`expr $total + $grade`;
+  else
+      echo "*****Test Failed*****";
+      echo ------ Your Output ----------
+      cat $prog.out
+      echo ------ Expected Output ------
+      cat $prog.org.out
+      echo ------ Difference -----------
+      cat diff.out
+      echo -----------------------------
+      printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  fi
+  echo
+}
+
+# List of tests running
+runtest test_linked_list test1 none 3
+runtest test_linked_list test2 none 3
+runtest test_linked_list test3 none 3
+runtest test_linked_list test4 none 3
+runtest test_linked_list test5 none 3
+runtest test_linked_list test6 none 3
+runtest test_linked_list test7 none 3
+runtest test_linked_list test8 none 3
+runtest test_linked_list test9 none 3
+runtest test_linked_list test10 none 3
+runtest test_linked_list test11 none 3
+runtest test_linked_list test12 none 3
+
+echo
+echo
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER   "
+echo   "-------------------------------------------------"
+cat total.txt
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER" `date` " Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+
+cat total.out >> $labout
+git add -A  >> .local.git.out
+git commit -a -m "$total of $totalmax" >> .local.git.out
+

@@ -1,0 +1,32 @@
+On branch master
+
+Initial commit
+
+Untracked files:
+	.local.total.out
+	Makefile
+	check-strfunc.sh
+	debug
+	diff.out
+	fact
+	fact.c
+	gdbtokens.txt
+	git.out
+	grade-gdb
+	mystring.c
+	mystring.h
+	mystring.o
+	none
+	obj/
+	public.c
+	strlen
+	test_mystring
+	test_mystring.c
+	test_mystring.org
+	test_mystring.org.out
+	test_mystring.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present

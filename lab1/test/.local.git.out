@@ -1,0 +1,174 @@
+[master ccee180] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 18 insertions(+)
+ create mode 100644 test/.local.git.out
+ create mode 100644 test/.local.total.out
+ create mode 100644 test/total.out
+[master db052ae] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 30 insertions(+), 4 deletions(-)
+[master f4ac365] 60 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 28 insertions(+), 4 deletions(-)
+ create mode 100755 high-low
+[master c28b481] 100 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 30 insertions(+), 5 deletions(-)
+[master (root-commit) b1d14b4] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 21 files changed, 705 insertions(+)
+ create mode 100644 add.c
+ create mode 100644 add.h
+ create mode 100644 exp.c
+ create mode 100644 exp_dec.c
+ create mode 100644 exp_short.c
+ create mode 100644 high-low.c
+ create mode 100755 minmax
+ create mode 100644 minmax.c
+ create mode 100644 test/.local.git.out
+ create mode 100644 test/.local.total.out
+ create mode 100644 test/README
+ create mode 100644 test/README-NEW_TESTS
+ create mode 100755 test/in1
+ create mode 100755 test/test0
+ create mode 100755 test/test1
+ create mode 100755 test/test2
+ create mode 100755 test/test3
+ create mode 100755 test/test4
+ create mode 100755 test/testall
+ create mode 100644 test/testing.tcl
+ create mode 100644 test/total.out
+[master 30d96de] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 45 insertions(+)
+[master 6b0d4b4] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 25 insertions(+)
+[master 2c193ff] 80 of 100
+ 12 files changed, 102 insertions(+), 16 deletions(-)
+ create mode 100755 a.out
+ create mode 100644 add.o
+ create mode 100755 exp
+ create mode 100644 exp_short.o
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 high-low
+ rewrite high-low.c (81%)
+ create mode 100755 high-low.org
+[master d213a24] 80 of 100
+ 2 files changed, 20 insertions(+)
+[master 65b29e6] 80 of 100
+ 2 files changed, 11 insertions(+)
+[master 220a9e0] 80 of 100
+ 4 files changed, 14 insertions(+), 2 deletions(-)
+[master 893ded6] 80 of 100
+ 4 files changed, 13 insertions(+), 2 deletions(-)
+[master 4fb463b] 80 of 100
+ 5 files changed, 15 insertions(+), 4 deletions(-)
+[master 0239e8d] 80 of 100
+ 4 files changed, 15 insertions(+), 2 deletions(-)
+[master e47735a] 80 of 100
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+[master 16900d5] 100 of 100
+ 6 files changed, 19 insertions(+), 6 deletions(-)
+[master 5630977] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master be625a2] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master 04ee1b2] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master 93bcfbb] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master 5b91da5] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master 798023f] 100 of 100
+ 3 files changed, 11 insertions(+)
+[master 0d5738a] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master 80e6dbe] 100 of 100
+ 2 files changed, 11 insertions(+)
+[master df3366b] 100 of 100
+ 2 files changed, 11 insertions(+)

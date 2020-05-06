@@ -1,0 +1,12 @@
+test_linked_list test1              : 3   of 3  
+test_linked_list test2              : 3   of 3  
+test_linked_list test3              : 3   of 3  
+test_linked_list test4              : 3   of 3  
+test_linked_list test5              : 3   of 3  
+test_linked_list test6              : 3   of 3  
+test_linked_list test7              : 3   of 3  
+test_linked_list test8              : 3   of 3  
+test_linked_list test9              : 3   of 3  
+test_linked_list test10             : 3   of 3  
+test_linked_list test11             : 3   of 3  
+test_linked_list test12             : 3   of 3  

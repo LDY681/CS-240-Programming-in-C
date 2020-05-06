@@ -1,0 +1,81 @@
+#!/bin/bash
+
+LAB=lab9
+
+(make clean; make)
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+  grade=$4
+  totalmax=`expr $totalmax + $grade`;
+
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  echo "======= $descr ==========="
+  ./$prog $args < $testinput > $prog.out
+  ./$prog.org $args< $testinput > $prog.org.out
+  diff $prog.out $prog.org.out > diff.out
+  if [ $? -eq 0 ]; then
+      cat $prog.out
+      echo Test passed...;
+      printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      total=`expr $total + $grade`;
+  else
+      echo "*****Test Failed*****";
+      echo ------ Your Output ----------
+      cat $prog.out
+      echo ------ Expected Output ------
+      cat $prog.org.out
+      echo ------ Difference -----------
+      cat diff.out
+      echo -----------------------------
+      printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  fi
+  echo
+}
+
+# List of tests running
+runtest TestStack "test1" none 20
+runtest TestMyString "test1" none 2
+runtest TestMyString "test2" none 2
+runtest TestMyString "test3" none 2
+runtest TestMyString "test4" none 3
+runtest TestMyString "test5" none 3
+runtest TestMyString "test6" none 3
+runtest TestMyString "test7" none 3
+runtest TestMyString "test8" none 3
+runtest TestMyString "test9" none 3
+runtest TestMyString "test10" none 3
+runtest TestMyString "test11" none 3
+runtest TestDLList "test1" none 10 
+runtest TestDLList "test2" none 10 
+runtest TestDLList "test3" none 10 
+runtest TestDLList "test4" none 10
+runtest TestDLList "test5" none 10
+
+echo > total.out
+echo >> total.out
+echo   "-------------------------------------------------" >> total.out
+echo   "CS240: $LAB. $USER   " >> total.out
+date >> total.out
+echo   "-------------------------------------------------" >> total.out
+cat total.txt >> total.out >> total.out
+echo   "-------------------------------------------------" >> total.out
+echo   "CS240: $LAB. $USER" `date` " Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+

@@ -1,0 +1,67 @@
+On branch master
+
+Initial commit
+
+Untracked files:
+	.local.total.out
+	Makefile
+	countlines
+	countlines.c
+	countlines.org
+	countlines.org.out
+	countlines.out
+	diff.out
+	git.out
+	hamlet
+	in1
+	in2
+	nextword.c
+	nextword.h
+	none
+	plot
+	plot.c
+	plot.org
+	plot.org.out
+	plot.out
+	rpn.c
+	rpn.h
+	rpn1
+	rpn10
+	rpn11
+	rpn12
+	rpn13
+	rpn14
+	rpn15
+	rpn16
+	rpn2
+	rpn3
+	rpn4
+	rpn5
+	rpn6
+	rpn7
+	rpn8
+	rpn9
+	rpncalc
+	rpncalc.c
+	rpncalc.org
+	rpncalc.org.out
+	rpncalc.out
+	stack.c
+	stack.h
+	test_stack
+	test_stack.c
+	test_stack.org
+	test_stack.org.out
+	test_stack.out
+	testall
+	toascii
+	toascii.c
+	total.out
+	total.txt
+	towords
+	towords.c
+	towords.org
+	towords.org.out
+	towords.out
+
+nothing added to commit but untracked files present

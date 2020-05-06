@@ -1,0 +1,5 @@
+test-mysort test1                   : 20  of 20 
+test-mysort test2                   : 20  of 20 
+test-mysort test3                   : 20  of 20 
+test-mysort test4                   : 20  of 20 
+test-mysort test5                   : 20  of 20 

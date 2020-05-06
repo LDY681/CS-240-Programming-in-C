@@ -1,0 +1,288 @@
+[master (root-commit) 25f1396] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 42 files changed, 1141 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 Makefile
+ create mode 100644 array.c
+ create mode 100644 array.h
+ create mode 100644 bits.c
+ create mode 100644 bits.h
+ create mode 100755 convert
+ create mode 100644 convert.c
+ create mode 100755 convert.org
+ create mode 100644 convert.org.out
+ create mode 100644 convert.out
+ create mode 100644 diff.out
+ create mode 100644 hintdump.c
+ create mode 100755 mem
+ create mode 100644 mem.c
+ create mode 100644 mymemdump.c
+ create mode 100644 mystring.c
+ create mode 100644 mystring.h
+ create mode 100644 none
+ create mode 100644 obj/orgmemdump.o
+ create mode 100755 test_array
+ create mode 100644 test_array.c
+ create mode 100755 test_array.org
+ create mode 100644 test_array.org.out
+ create mode 100644 test_array.out
+ create mode 100755 test_bits
+ create mode 100644 test_bits.c
+ create mode 100755 test_bits.org
+ create mode 100644 test_bits.org.out
+ create mode 100644 test_bits.out
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 testall
+ create mode 100755 testmemdump
+ create mode 100644 testmemdump.c
+ create mode 100644 testmemdump.out
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master c37a57e] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 80 insertions(+), 21 deletions(-)
+[master 8f4374a] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 37 insertions(+), 20 deletions(-)
+[master ef2c14d] 3 of 116
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 57 insertions(+), 40 deletions(-)
+[master 975a4e3] 3 of 102
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 65 insertions(+), 48 deletions(-)
+[master 0c1871f] 3 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 41 insertions(+), 24 deletions(-)
+[master 55402a6] 0 of 43
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 18 insertions(+), 53 deletions(-)
+ rewrite Makefile (80%)
+ create mode 100644 total.out
+[master 1816601] 0 of 43
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+[master 0b2d8fa] 0 of 43
+ 2 files changed, 47 insertions(+), 3 deletions(-)
+[master fa7d1b0] 0 of 43
+ 2 files changed, 21 insertions(+), 10 deletions(-)
+[master a70d621] 8 of 43
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+[master e1db3ab] 8 of 43
+ 3 files changed, 30 insertions(+), 9 deletions(-)
+[master d1c55ca] 8 of 43
+ 3 files changed, 11 insertions(+), 6 deletions(-)
+[master e1382d3] 8 of 43
+ 3 files changed, 9 insertions(+), 5 deletions(-)
+[master 4866aa1] 8 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c5b98b6] 8 of 43
+ 2 files changed, 1 insertion(+), 24 deletions(-)
+[master d41a7c3] 8 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 4b6cc0b] 8 of 43
+ 3 files changed, 47 insertions(+), 12 deletions(-)
+[master aac2aa9] 8 of 43
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+[master edafdbb] 20 of 43
+ 3 files changed, 9 insertions(+), 6 deletions(-)
+[master 96bea71] 20 of 43
+ 2 files changed, 51 insertions(+), 1 deletion(-)
+[master 90e36b1] 8 of 43
+ 3 files changed, 25 insertions(+), 24 deletions(-)
+[master 34198fe] 26 of 43
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+[master ba16b66] 10 of 43
+ 3 files changed, 11 insertions(+), 3 deletions(-)
+[master fa5229f] 10 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master c506386] 10 of 43
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+[master 8fbffc8] 26 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 0e11c50] 26 of 43
+ 4 files changed, 13 insertions(+), 7 deletions(-)
+[master 2420698] 26 of 43
+ 4 files changed, 55 insertions(+), 20 deletions(-)
+ rewrite diff.out (64%)
+[master f4ad224] 26 of 43
+ 4 files changed, 14 insertions(+), 21 deletions(-)
+[master 3a90694] 26 of 43
+ 4 files changed, 15 insertions(+), 10 deletions(-)
+[master b79152d] 26 of 43
+ 4 files changed, 14 insertions(+), 16 deletions(-)
+[master 2d4ad05] 26 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 08f4e48] 26 of 43
+ 4 files changed, 12 insertions(+), 6 deletions(-)
+[master 2f47bd6] 26 of 43
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+[master 171d41a] 26 of 43
+ 4 files changed, 15 insertions(+), 11 deletions(-)
+[master ce722f3] 26 of 43
+ 4 files changed, 6 insertions(+), 6 deletions(-)
+[master 04b8a93] 26 of 43
+ 4 files changed, 10 insertions(+), 5 deletions(-)
+[master 9be8d3b] 26 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b953afb] 26 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master f7871b3] 26 of 43
+ 4 files changed, 8 insertions(+), 26 deletions(-)
+[master d53228b] 26 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 39e4c4b] 26 of 43
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+[master b1a3564] 26 of 43
+ 4 files changed, 25 insertions(+), 10 deletions(-)
+[master e1073ef] 28 of 43
+ 3 files changed, 8 insertions(+), 5 deletions(-)
+[master fd99e6a] 28 of 43
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+[master 609a2d6] 28 of 43
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+[master e0bce37] 28 of 43
+ 2 files changed, 14 insertions(+), 6 deletions(-)
+[master 6db2e3b] 28 of 43
+ 4 files changed, 11 insertions(+), 11 deletions(-)
+[master 5fdfaf5] 28 of 43
+ 4 files changed, 12 insertions(+), 11 deletions(-)
+[master eb81550] 28 of 43
+ 2 files changed, 9 insertions(+), 9 deletions(-)
+[master 60e9ffb] 28 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 51f549c] 28 of 43
+ 2 files changed, 13 insertions(+), 12 deletions(-)
+[master 12d1e8e] 28 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 1afbb05] 28 of 43
+ 4 files changed, 7 insertions(+), 19 deletions(-)
+[master 6ad5f3b] 28 of 43
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+[master 6224bcc] 28 of 43
+ 4 files changed, 16 insertions(+), 10 deletions(-)
+[master e0cc721] 31 of 43
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+[master 0e46cdf] 31 of 43
+ 4 files changed, 6 insertions(+), 5 deletions(-)
+[master c7f2423] 31 of 43
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+[master 7fccbba] 31 of 43
+ 4 files changed, 11 insertions(+), 6 deletions(-)
+[master 8e05205] 31 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 12165b9] 34 of 43
+ 4 files changed, 7 insertions(+), 7 deletions(-)
+[master f34698b] 34 of 43
+ 4 files changed, 6 insertions(+), 6 deletions(-)
+[master 59370cc] 34 of 43
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 0386a5b] 37 of 43
+ 4 files changed, 11 insertions(+), 6 deletions(-)
+[master 51c3856] 28 of 43
+ 4 files changed, 19 insertions(+), 10 deletions(-)
+[master 9154bc7] 28 of 43
+ 4 files changed, 6 insertions(+), 6 deletions(-)
+[master 4f744b6] 28 of 43
+ 4 files changed, 11 insertions(+), 11 deletions(-)
+[master 701ca9b] 37 of 43
+ 4 files changed, 24 insertions(+), 14 deletions(-)
+[master 65969fe] 37 of 43
+ 4 files changed, 4 insertions(+), 12 deletions(-)
+[master ba896da] 40 of 43
+ 4 files changed, 25 insertions(+), 6 deletions(-)
+[master 5413c96] 40 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b72ae77] 40 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master da45315] 40 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master aa11a7f] 40 of 43
+ 1 file changed, 1 insertion(+), 1 deletion(-)

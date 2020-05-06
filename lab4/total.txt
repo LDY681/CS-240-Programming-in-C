@@ -1,0 +1,19 @@
+convert                             : 2   of 2  
+convert 10                          : 2   of 2  
+convert 10 10                       : 2   of 2  
+convert 10 10                       : 2   of 2  
+convert 10 10 10                    : 2   of 2  
+convert 16 10 FF                    : 2   of 2  
+convert 16 10 100                   : 2   of 2  
+convert 10 8 20                     : 2   of 2  
+convert 10 2 127                    : 2   of 2  
+convert 10 16 8191                  : 2   of 2  
+convert 10 25 100077900             : 2   of 2  
+convert 2 16 100010001111           : 2   of 2  
+convert 5 10 1234                   : 2   of 2  
+convert 5 10 123456                 : 2   of 2  
+test_bits test1                     : 3   of 3  
+test_bits test2                     : 3   of 3  
+test_bits test3                     : 3   of 3  
+test_bits test4                     : 3   of 3  
+test_bits test5                     : 0   of 3  

@@ -1,0 +1,7 @@
+test_mystring test1                 : 3   of 3  
+test_mystring test2                 : 3   of 3  
+test_mystring test3                 : 3   of 3  
+test_mystring test4                 : 3   of 3  
+test_mystring test5                 : 3   of 3  
+test_mystring test6                 : 3   of 3  
+test_mystring test7                 : 3   of 3  

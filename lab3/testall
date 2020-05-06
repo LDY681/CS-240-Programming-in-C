@@ -1,0 +1,97 @@
+#!/bin/bash
+
+(make clean; make) || exit 1
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+  grade=$4
+  totalmax=`expr $totalmax + $grade`;
+
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="./$prog $args $inputdescr"
+  
+  echo "========== $descr ==========="
+
+  #Run tested program
+  ./$prog $args < $testinput > $prog.out 
+
+  #Run original program
+  ./$prog.org $args< $testinput > $prog.org.out 
+
+  diff $prog.out $prog.org.out > diff.out
+  if [ $? -eq 0 ]; then
+      cat $prog.out
+      echo Test passed...;
+      printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      total=`expr $total + $grade`;
+  else
+      echo "*****Test Failed*****";
+      echo ------ Your Output ----------
+      cat $prog.out
+      echo ------ Expected Output ------
+      cat $prog.org.out
+      echo ------ Difference -----------
+      cat diff.out
+      echo -----------------------------
+      printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  fi
+  echo
+}
+
+# List of tests running
+runtest countlines "in1" none 4 
+runtest countlines "in2" none 4 
+runtest countlines "hamlet" none 3 
+runtest towords "in1" none 4 
+runtest towords "in2" none 4 
+runtest towords "hamlet" none 3 
+runtest test_stack "" none 10
+runtest rpncalc "rpn1" none 3 ""
+runtest rpncalc "rpn2" none 3 ""
+runtest rpncalc "rpn3" none 3 ""
+runtest rpncalc "rpn4" none 3 ""
+runtest rpncalc "rpn5" none 3 ""
+runtest rpncalc "rpn6" none 3 ""
+runtest rpncalc "rpn7" none 3 ""
+runtest rpncalc "rpn8" none 3 ""
+runtest rpncalc "rpn9" none 3 ""
+runtest rpncalc "rpn10" none 3 ""
+runtest rpncalc "rpn11 3" none 3 ""
+runtest rpncalc "rpn12 45" none 3 ""
+runtest rpncalc "rpn13 2" none 3 ""
+runtest rpncalc "rpn13 2" none 3 ""
+runtest rpncalc "rpn13 2" none 3 ""
+runtest plot    "rpn14 -1 1" none 8 ""
+runtest plot    "rpn15 -5 5" none 8 ""
+runtest plot    "rpn15 -10 10" none 7 ""
+
+echo > total.out
+echo >> total.out
+echo   "-------------------------------------------------" >> total.out
+echo   "CS240: Lab 3. $USER   " >> total.out
+date >> total.out
+echo   "-------------------------------------------------" >> total.out
+cat total.txt >> total.out >> total.out 
+echo   "-------------------------------------------------" >> total.out 
+echo   "                              Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+
+#Do not remove or comment these lines. They are used for monitoring progress.
+labout=/homes/cs240/LABOUT/lab3/$USER/total.txt
+cat total.out >> $labout
+cat total.out >> .local.total.out
+git commit -a -m "$total of $totalmax" > git.out
+

@@ -1,0 +1,172 @@
+[master 7005999] 6 of 36
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 164 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 diff.out
+ create mode 100644 mytable.ll
+ create mode 100755 ptr-simple
+ create mode 100755 simple_list
+ create mode 100755 test_linked_list
+ create mode 100644 test_linked_list.org.out
+ create mode 100644 test_linked_list.out
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master 59da256] 6 of 36
+ 7 files changed, 42 insertions(+), 1 deletion(-)
+ rewrite ptr-simple (85%)
+ rewrite simple_list (82%)
+ create mode 100644 table1.ll
+ rewrite test_linked_list (78%)
+[master bbec876] 9 of 36
+ 6 files changed, 18 insertions(+), 2 deletions(-)
+[master 0f1890f] 9 of 36
+ 5 files changed, 31 insertions(+), 1 deletion(-)
+ rewrite test_linked_list (75%)
+[master d84b9a6] 12 of 36
+ 7 files changed, 7 insertions(+), 3 deletions(-)
+ create mode 100644 .LinkedList.c.swp
+[master 9634883] 12 of 36
+ 6 files changed, 8 insertions(+), 2 deletions(-)
+[master 6effbc7] 12 of 36
+ 6 files changed, 14 insertions(+), 1 deletion(-)
+[master 26eedff] 12 of 36
+ 6 files changed, 6 insertions(+), 1 deletion(-)
+[master 556232c] 15 of 36
+ 7 files changed, 11 insertions(+), 6 deletions(-)
+[master ebc5929] 18 of 36
+ 7 files changed, 21 insertions(+), 4 deletions(-)
+[master 4ac9ae2] 21 of 36
+ 7 files changed, 13 insertions(+), 3 deletions(-)
+[master 29d4786] 21 of 36
+ 6 files changed, 15 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (75%)
+[master a8efc1e] 21 of 36
+ 6 files changed, 19 insertions(+), 3 deletions(-)
+ rewrite test_linked_list (81%)
+[master b1c8c77] 21 of 36
+ 6 files changed, 11 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (67%)
+[master 804edfa] 21 of 36
+ 6 files changed, 7 insertions(+), 5 deletions(-)
+[master 4532ad8] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 0337084] 21 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 6d8ae49] 21 of 36
+ 6 files changed, 6 insertions(+), 2 deletions(-)
+[master 39a6653] 21 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master ea6fe9a] 21 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master e4ef6d2] 21 of 36
+ 8 files changed, 13 insertions(+), 15 deletions(-)
+ create mode 100644 nonexsting.rt
+[master 62928e5] 21 of 36
+ 7 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 100644 .LinkedList.c.swp
+[master 2f918bb] 21 of 36
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+[master 2a5a5a8] 21 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 0870e5c] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 31fe265] 21 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 0995876] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 4a9c288] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 2ac3463] 21 of 36
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+[master 66933ce] 21 of 36
+ 5 files changed, 7 insertions(+), 3 deletions(-)
+[master 32e57df] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 7abcc5d] 21 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master ba1cff0] 21 of 36
+ 5 files changed, 16 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (78%)
+[master 9ce5a7a] 27 of 36
+ 6 files changed, 11 insertions(+), 5 deletions(-)
+[master b14eae6] 27 of 36
+ 5 files changed, 14 insertions(+), 2 deletions(-)
+[master 87924e7] 27 of 36
+ 5 files changed, 6 insertions(+), 1 deletion(-)
+[master c3d8361] 27 of 36
+ 5 files changed, 19 insertions(+), 2 deletions(-)
+[master f054dec] 27 of 36
+ 5 files changed, 6 insertions(+), 1 deletion(-)
+[master 68a5dd3] 27 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master e1d782a] 27 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 0b1ab0e] 27 of 36
+ 5 files changed, 7 insertions(+), 3 deletions(-)
+[master 6fb652b] 27 of 36
+ 5 files changed, 7 insertions(+), 5 deletions(-)
+[master 337823a] 27 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master 396d8da] 27 of 36
+ 5 files changed, 10 insertions(+), 3 deletions(-)
+[master c08f1e3] 27 of 36
+ 5 files changed, 8 insertions(+), 3 deletions(-)
+[master 858ff54] 27 of 36
+ 5 files changed, 6 insertions(+), 1 deletion(-)
+[master 6175c93] 27 of 36
+ 5 files changed, 14 insertions(+), 3 deletions(-)
+[master 41ab00e] 27 of 36
+ 5 files changed, 5 insertions(+), 2 deletions(-)
+[master 406d0c1] 30 of 36
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+[master 69fae63] 30 of 36
+ 7 files changed, 15 insertions(+), 8 deletions(-)
+[master ff62143] 30 of 36
+ 5 files changed, 13 insertions(+), 1 deletion(-)
+[master 8008b9d] 33 of 36
+ 8 files changed, 11 insertions(+), 9 deletions(-)
+[master 33b7367] 33 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 524f734] 33 of 36
+ 5 files changed, 7 insertions(+), 2 deletions(-)
+[master f197e2b] 33 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master eccf5e1] 33 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master c4494b0] 33 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 6044d2d] 33 of 36
+ 5 files changed, 6 insertions(+), 2 deletions(-)
+[master d38f8bc] 33 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 905aab1] 33 of 36
+ 5 files changed, 7 insertions(+), 2 deletions(-)
+[master 81c7935] 36 of 36
+ 6 files changed, 7 insertions(+), 3 deletions(-)
+[master e6b43d3] 36 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 8ae518b] 36 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master a8d1bd4] 36 of 36
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master f52f29b] 36 of 36
+ 6 files changed, 13 insertions(+), 2 deletions(-)
+ create mode 100644 .LinkedList.c.swp
+[master 814d1db] 36 of 36
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+ delete mode 100644 .LinkedList.c.swp
+[master 49bf455] 36 of 36
+ 3 files changed, 6 insertions(+), 1 deletion(-)

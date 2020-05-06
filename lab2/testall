@@ -1,0 +1,99 @@
+#!/bin/bash
+
+(make clean; make) || exit 1
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+  grade=$4
+  totalmax=`expr $totalmax + $grade`;
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  echo "======= $descr ==========="
+
+  #Run tested program
+  ./$prog $args < $testinput > $prog.out 
+  if [ $? -ne 0 ]; then
+      echo Cannot run ./$prog
+      cat $prog.out
+      echo "*****Test Failed*****";
+      return
+  fi
+
+  #Run original program
+  ./$prog.org $args< $testinput > $prog.org.out 
+  if [ $? -ne 0 ]; then
+      echo Cannot run ./$prog.org
+      cat $prog.org.out
+      echo "*****Test Failed*****";
+      return
+  fi
+
+  diff $prog.out $prog.org.out > diff.out
+  if [ $? -eq 0 ]; then
+      cat $prog.out
+      echo Test passed...;
+      printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      total=`expr $total + $grade`;
+  else
+      echo "*****Test Failed*****";
+      echo ------ Your Output ----------
+      cat $prog.out
+      echo ------ Expected Output ------
+      cat $prog.org.out
+      echo ------ Difference -----------
+      cat diff.out
+      echo -----------------------------
+      printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  fi
+  echo
+}
+
+# List of tests running
+runtest test_mystring "test1" none 3
+runtest test_mystring "test2" none 3
+runtest test_mystring "test3" none 3
+runtest test_mystring "test4" none 3
+runtest test_mystring "test5" none 3
+runtest test_mystring "test6" none 3
+runtest test_mystring "test7" none 3
+
+./check-strfunc.sh
+if [ $? -eq 0 ]; then
+  echo
+else
+  total=`expr $total - 20`;
+  echo "Don't use string library in mystring.c (-20pts)" >>  total.txt
+fi
+
+echo > total.out
+echo >> total.out
+echo   "-------------------------------------------------" >> total.out
+echo   "CS240: Lab 2. $USER   " >> total.out
+date >> total.out
+echo   "-------------------------------------------------" >> total.out
+cat total.txt >> total.out >> total.out
+echo   "-------------------------------------------------" >> total.out
+echo   "CS240: Lab 2. $USER" `date` " Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+
+#Do not remove or comment these lines. They are used for monitoring progress.
+labout=/homes/cs240/LABOUT/lab2/$USER/total.txt
+cat total.out >> $labout
+git commit -a -m "$total of $totalmax" > git.out
+
+

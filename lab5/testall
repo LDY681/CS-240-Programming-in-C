@@ -1,0 +1,103 @@
+#!/bin/bash
+
+export LAB=lab5
+
+(make clean; make) || exit 1
+
+total=0
+totalmax=0
+
+rm -f total.txt *out total.txt
+touch none
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+  compout=$4
+  grade=$5
+  totalmax=`expr $totalmax + $grade`;
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  echo "======= $descr ==========="
+
+  #Run tested program
+  if [ $compout -eq 0 ]; then
+  	./$prog $args < $testinput > $prog.out
+  	if [ $? -eq 0 ]; then
+      		cat $prog.out
+      		echo Test passed...;
+      		printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      		total=`expr $total + $grade`;
+  	else
+      		cat $prog.out
+      		echo "*****Test Failed*****";
+      		printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  	fi
+  else 
+  	./$prog $args < $testinput > $prog.out
+  	./$prog.org $args< $testinput > $prog.org.out
+  	diff $prog.out $prog.org.out > diff.out
+  	if [ $? -eq 0 ]; then
+      		cat $prog.out
+      		echo Test passed...;
+      		printf "%-36s: %-3d of %-3d\n" "$descr " $grade $grade >> total.txt
+      		total=`expr $total + $grade`;
+  	else
+      		echo "*****Test Failed*****";
+      		echo ------ Your Output ----------
+      		cat $prog.out
+      		echo ------ Expected Output ------
+      		cat $prog.org.out
+      		echo ------ Difference -----------
+      		cat diff.out
+      		echo -----------------------------
+      		printf "%-36s: %-3d of %-3d\n" "$descr " 0 $grade >> total.txt
+  	fi
+  fi
+  echo
+}
+
+# List of tests running
+runtest testmemdump "1" none 0 4 
+runtest testmemdump "2" none 0 4
+runtest testmemdump "3" none 0 4
+runtest testmemdump "4" none 0 3
+runtest testmemdump "5" none 0 3
+runtest myfiledump "myfiledump.c" none 1 4 
+runtest myfiledump "myfiledump 100" none 1 4 
+runtest myfiledump "sample.wav 100" none 1 4 
+runtest myfiledump "invalidfile" none 1 3
+runtest myfiledump "myfiledump.c 1000000" none 1 3 
+runtest test_mystring "test1" none 1 3
+runtest test_mystring "test2" none 1 3
+runtest test_mystring "test3" none 1 3
+runtest test_mystring "test4" none 1 3
+runtest test_mystring "test5" none 1 3
+runtest test_mystring "test6" none 1 3
+runtest test_mystring "test7" none 1 3
+runtest test_array "test1" none 1 3
+runtest test_array "test2" none 1 3
+runtest test_array "test3" none 1 3
+runtest test_array "test4" none 1 3
+runtest test_array "test5" none 1 3
+runtest test_array "test6" none 1 3
+
+echo
+echo
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER   "
+echo   "-------------------------------------------------"
+cat total.txt
+echo   "-------------------------------------------------"
+echo   "CS240: $LAB. $USER" `date` " Total: " $total of $totalmax >> total.out
+echo >> total.out
+
+cat total.out
+cat total.out >> .local.total.out
+
